@@ -12,9 +12,9 @@
 ##### The purpose 2 is, each object has a unique position in the new matrix and can be identified by an index. And a good design of the index will be a bonus. Given a specific object id and a timestamp, it can return the ‘features of the object at the timeframe’ by a quick index search.
 ##### The purpose 3 is, given that a new frame at t(i) is added, in the logic of page 3, we only have to refer to the previous matrix at t(i-1), however the matrix size is getting larger by time series, and the time complexity should be taken into consideration.
 
-![Concept](https://github.com/thejourneyofman/diettable/blob/master/images/P1.png)
+![P1](https://raw.githubusercontent.com/thejourneyofman/diettable/master/images/P1.png)
 
-![Concept](https://github.com/thejourneyofman/diettable/blob/master/images/P2.png)
+![P2](https://raw.githubusercontent.com/thejourneyofman/diettable/master/images/P2.png)
 
 ### Requirements
 ##### Implement your algorithms in python, C++ or R Lang.
